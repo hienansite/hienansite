@@ -427,7 +427,7 @@ body {
   align-items: left;
   min-height: 400px;
 }
-
+#name, #email, #date,
 .contact .form input[type="text"],
 select,
 textarea {
