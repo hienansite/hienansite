@@ -427,7 +427,7 @@ body {
   align-items: left;
   min-height: 400px;
 }
-.contact .form input[type="text"],
+.contact .form input.text,
 select,
 textarea {
   width: 100%;
