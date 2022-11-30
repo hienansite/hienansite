@@ -440,6 +440,7 @@ textarea {
   resize: vertical;
 }
 
+.contact .form input[type="button"],
 .contact .form input[type="submit"] {
   border: 3px solid rgb(153, 255, 187);
   text-decoration: none;
@@ -449,6 +450,7 @@ textarea {
   padding: 10px 25px;
 }
 
+.contact .form input[type="button"]:hover,
 .contact .form input[type="submit"]:hover {
   background-color: rgba(153, 255, 187, 0.7);
   color: black;
