@@ -13,6 +13,9 @@
 
 /*Large Desktop*/
 /*General CSS*/
+#navigation{
+  background: #d3d3d340;
+}
 
 html {
   scroll-behavior: smooth;
@@ -270,7 +273,6 @@ body {
 
 /* Slides */
 .mySlides {
-  display: none;
   padding: 80px;
   text-align: center;
 }
@@ -466,6 +468,44 @@ textarea {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.language>a{
+  padding-bottom: 5px;
+}
+.language a{
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
+.language ul li{
+  border-bottom: solid 1px #333;
+}
+
+.language ul li:first-child{
+  border-top: solid 1px #333;
+}
+
+.language ul li:last-child{
+  border: none;
+}
+.language ul{
+  padding: 5px 5px 0 5px;
+  background: #fff;
+  list-style: none;
+  display: none;
+}
+
+.language:hover ul{
+  display: block;
+}
+
+.language{
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  right: 60px;
 }
 
 @media screen and (max-width: 1200px) {
